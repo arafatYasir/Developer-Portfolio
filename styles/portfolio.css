@@ -131,7 +131,7 @@ section {
 
 .skill {
     border-radius: 5px;
-    background: #FFF;
+    background-color: #ffffff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
 }
@@ -146,4 +146,44 @@ section {
 
 .skill-description {
     color: #757575;
+}
+
+/* Resume section */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 113px;
+}
+
+.resume-items {
+    margin: 30px 0 30px 0;
+}
+
+.resume .title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
 }
